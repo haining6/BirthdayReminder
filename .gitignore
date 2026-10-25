@@ -1,0 +1,12 @@
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+# 编译产物 APK 不放进代码仓库，发布时上传到 GitHub Releases
+*.apk
+# 签名密钥和密码，务必单独备份，不要上传到任何地方
+keystore/
+keystore.properties

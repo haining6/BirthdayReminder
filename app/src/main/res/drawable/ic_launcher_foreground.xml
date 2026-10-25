@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 盘子 -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillAlpha="0.85"
+        android:pathData="M32,72h44a2,2 0,0 1,0 4h-44a2,2 0,0 1,0 -4z" />
+    <!-- 下层蛋糕 -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M36,56h36a4,4 0,0 1,4 4v12h-44v-12a4,4 0,0 1,4 -4z" />
+    <!-- 上层蛋糕 -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M43,44h22a3,3 0,0 1,3 3v9h-28v-9a3,3 0,0 1,3 -3z" />
+    <!-- 奶油 -->
+    <path
+        android:fillColor="#FFF58E96"
+        android:pathData="M32,60a4,4 0,0 1,4 -4h36a4,4 0,0 1,4 4v1q-5.5,5 -11,0q-5.5,5 -11,0q-5.5,5 -11,0q-5.5,5 -11,0z" />
+    <path
+        android:fillColor="#FFF58E96"
+        android:pathData="M40,47a3,3 0,0 1,3 -3h22a3,3 0,0 1,3 3v1q-3.5,4 -7,0q-3.5,4 -7,0q-3.5,4 -7,0q-3.5,4 -7,0z" />
+    <!-- 装饰点 -->
+    <path
+        android:fillColor="#FFF58E96"
+        android:pathData="M41.4,67a1.6,1.6 0,1 0,3.2 0a1.6,1.6 0,1 0,-3.2 0zM52.4,67a1.6,1.6 0,1 0,3.2 0a1.6,1.6 0,1 0,-3.2 0zM63.4,67a1.6,1.6 0,1 0,3.2 0a1.6,1.6 0,1 0,-3.2 0z" />
+    <!-- 蜡烛 -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M52.5,36h3v8h-3z" />
+    <!-- 火苗 -->
+    <path
+        android:fillColor="#FFFFD54F"
+        android:pathData="M54,27c2.2,2.6 3.6,4.6 3.6,6.4a3.6,3.6 0,0 1,-7.2 0c0,-1.8 1.4,-3.8 3.6,-6.4z" />
+</vector>
