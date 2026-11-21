@@ -1,7 +1,7 @@
 @echo off
 chcp 936 >nul
 rem 一键编译签名版 APK，产物复制为“生日提醒-v版本号.apk”（本文件为 GBK 编码，请勿改成 UTF-8）
-set "JAVA_HOME=C:\path\to\jdk-17"
+if not defined JAVA_HOME set "JAVA_HOME=C:\path\to\jdk-17"
 cd /d "%~dp0"
 call "%~dp0gradlew.bat" :app:testDebugUnitTest :app:assembleRelease --console=plain
 if errorlevel 1 (
